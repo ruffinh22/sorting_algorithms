@@ -3,12 +3,12 @@
 void swap(int *array, size_t i, size_t j);
 
 /**
- * bubble_sort - sorts an integer array using the Bubble sort algorithm
+ * quick_sort_hoare - sorts an integer array using the QSH sort algorithm
  * @array: array to sort
  * @size: array's size
  * Return: Nothing.
  */
-void bubble_sort(int *array, size_t size)
+void quick_sort_hoare(int *array, size_t size)
 {
 	size_t i, j;
 

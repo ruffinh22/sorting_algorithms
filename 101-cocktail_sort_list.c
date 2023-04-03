@@ -1,10 +1,10 @@
 #include "sort.h"
 /**
- * insertion_sort_list -  sorts a DLL of integers using the Insertion sort
+ * cocktail_sort_list - sorts an DLL using the Cocktail shaker sort algorithm
  * @list: DLL to sort
  * Return: Nothing.
  */
-void insertion_sort_list(listint_t **list)
+void cocktail_sort_list(listint_t **list)
 {
 	int done = 0;
 	listint_t *tmp_node, *aux_node;
